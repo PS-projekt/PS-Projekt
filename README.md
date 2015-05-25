@@ -1,2 +1,2 @@
 # PS-projekt
-Nasz projekt z Przetwarza
+Nasz projekt z Przetwarzania sygnalow
