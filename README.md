@@ -1,3 +1,5 @@
 # PS-projekt
-Nasz projekt z Przetwarzania sygnaów.
-Jam jest Tumnus Narnijczyk (próba edycji pliku)
+Nasz projekt z Przetwarzania sygnalów.
+Jam jest Tumnus Narnijczyk (próba edycji pliku).
+ćóżźń
+Można tylko niektóre polskie znaki dodać. Bez sensu.
