@@ -4,7 +4,6 @@ recObj = audiorecorder;
 fprintf('Zagraj na gitarze jak najblizej mikrofonu - czas na uderzenie struny to 8 sekund.\n')
 recordblocking(recObj, 8);
 fprintf('Koniec nagrywania.\n');
-play(recObj);
 y = getaudiodata(recObj);
 figure;
 plot(y);
