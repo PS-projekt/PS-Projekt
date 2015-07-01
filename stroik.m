@@ -8,9 +8,16 @@ D3f = 146.832;
 G3f = 195.998;
 B3f = 246.942;
 E4f = 329.628;
-while x==1,
-	x=isempty (input ('Nacisnij enter, by rozpoczac dzialanie programu, badz zero, by wyjsc.'));
+while (x)
+    clc;
+fprintf('Program rozpoczyna dzialanie. Nastapi teraz nagranie dzwieku.\n');
 
+    n=0;
+    while (n==0)
+    y=nagrywanie();
+    n=isempty (input ('Nacisnij enter, by przejsc dalej, badz zero, jesli chcesz powtorzyc nagrywanie.\n'));
+    end
+fprintf('Program przeprowadzi teraz analize dzwieku.\n');
 
     
     
@@ -24,6 +31,5 @@ while x==1,
     
     
     
-    
-    
+x=isempty (input ('Nacisnij enter, by powtorzyc dzialanie programu, badz zero, by wyjsc.\n')); 
 end
