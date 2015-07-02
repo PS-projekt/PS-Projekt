@@ -8,7 +8,7 @@ y = getaudiodata(recObj);
 figure;
 plot(y);
 title('Wykres dzwieku wejsciowego');
-xlabel('Czas');
+xlabel('Numer probki');
 ylabel('Wartosc dzwieku wejsciowego');
 
 end
