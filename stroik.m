@@ -23,7 +23,7 @@ xlabel('Czestotliwosc (Hz)');
     
 %teraz trzeba bedzie powiazac filtry strun z FFT, znalezc maksymalne prazki
 %dla jakich sa czestotliwosci..
-strojenie(dane, n, fs);  
+strojenie(dane, n, fs, f);  
     
 x=isempty (input ('Nacisnij enter, by powtorzyc dzialanie programu, badz zero, by wyjsc.\n')); 
 end

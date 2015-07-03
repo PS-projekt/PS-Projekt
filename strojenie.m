@@ -1,4 +1,4 @@
-function strojenie(dane, n, fs)
+function strojenie(dane, n, fs, f)
 
 %czestotliwosci pustych strun gitarowych
 E2 = 82.4069;
