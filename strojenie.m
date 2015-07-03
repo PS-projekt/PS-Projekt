@@ -83,7 +83,7 @@ elseif(max_A2)> 1000
     end
     
      elseif(max_G3)> 1000
-    fprintf('Stroimy strune D3.\n');
+    fprintf('Stroimy strune G3.\n');
     if(max_G3*fs/n < G3-2) 
         fprintf('Nastroj do gory, roznica wynosi:');
         disp(G3-2-(max_G3*fs/n));
@@ -97,7 +97,7 @@ elseif(max_A2)> 1000
     end
     
     elseif(max_H3)> 1000
-    fprintf('Stroimy strune D3.\n');
+    fprintf('Stroimy strune H3.\n');
     if(max_H3*fs/n < H3-2) 
         fprintf('Nastroj do gory, roznica wynosi:');
         disp(H3-2-(max_H3*fs/n));
