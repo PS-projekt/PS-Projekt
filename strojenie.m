@@ -1,4 +1,4 @@
-function strojenie(dane, n, fs, f)
+function strojenie(dane, n, fs, f, wybor)
 
 %czestotliwosci pustych strun gitarowych
 E2 = 82.4069;
@@ -35,12 +35,11 @@ max_G3=max(filtr_G3.*dane);
 max_H3=max(filtr_H3.*dane);
 max_E4=max(filtr_E4.*dane);
 
-fprintf('Kolejnosc strun - od najgrubszej do najcienszej - E2, A2, D3, G3, H3, E4.\n');
 
 %zakladamy, ze stroimy z dokladnoscia do 2Hz
 %ze prazek ma byc wiekszy niz 500 dla E2 i wiekszy niz 1000 to nie jestem
 %pewien, wyszlo mi z testow co sie dzieje empirycznych....
-if(max_E2)> 500
+if(wybor==1)
     fprintf('Stroimy strune E2.\n');
     if(max_E2*fs/n < E2-2) 
         fprintf('Nastroj do gory, roznica wynosi:');
@@ -54,7 +53,7 @@ if(max_E2)> 500
         fprintf('Struna nastrojona!');
     end
     
-elseif(max_A2)> 1000
+elseif(wybor==2)
     fprintf('Stroimy strune A2.\n');
     if(max_A2*fs/n < A2-2) 
         fprintf('Nastroj do gory, roznica wynosi:');
@@ -68,7 +67,7 @@ elseif(max_A2)> 1000
         fprintf('Struna nastrojona!');
     end
     
-    elseif(max_D3)> 1000
+   elseif(wybor==3)
     fprintf('Stroimy strune D3.\n');
     if(max_D3*fs/n < D3-2) 
         fprintf('Nastroj do gory, roznica wynosi:');
@@ -82,7 +81,7 @@ elseif(max_A2)> 1000
         fprintf('Struna nastrojona!');
     end
     
-     elseif(max_G3)> 1000
+    elseif(wybor==4)
     fprintf('Stroimy strune G3.\n');
     if(max_G3*fs/n < G3-2) 
         fprintf('Nastroj do gory, roznica wynosi:');
@@ -96,7 +95,7 @@ elseif(max_A2)> 1000
         fprintf('Struna nastrojona!');
     end
     
-    elseif(max_H3)> 1000
+   elseif(wybor==5)
     fprintf('Stroimy strune H3.\n');
     if(max_H3*fs/n < H3-2) 
         fprintf('Nastroj do gory, roznica wynosi:');
@@ -110,7 +109,7 @@ elseif(max_A2)> 1000
         fprintf('Struna nastrojona!');
     end
     
-    elseif(max_E4)> 1000
+    elseif(wybor==6)
     fprintf('Stroimy strune E4.\n');
     if(max_E4*fs/n < E4-2) 
         fprintf('Nastroj do gory, roznica wynosi:');
