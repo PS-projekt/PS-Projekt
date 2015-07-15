@@ -6,3 +6,4 @@ Można tylko niektóre polskie znaki dodać. Bez sensu.
 A ja też sobie piszę i ja też.
 A jak zrobić, żeby bylo w nastepnej linijce, a nie wszystko w tej samej?
 :)
+:)))
