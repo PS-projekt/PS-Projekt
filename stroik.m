@@ -28,7 +28,7 @@ while (x)
     
     %teraz trzeba bedzie powiazac filtry strun z FFT, znalezc maksymalne prazki
     %dla jakich sa czestotliwosci..
-    strojenie(dane, n, fs, f, wybor);  
+    strojenie(dane, n, fs, wybor);  
         
     x=isempty (input ('Nacisnij enter, by powtorzyc dzialanie programu, badz zero, by wyjsc.\n')); 
 end
