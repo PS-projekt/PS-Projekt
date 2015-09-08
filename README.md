@@ -1,9 +1,11 @@
 ﻿# PS-projekt
-Nasz projekt z Przetwarzania sygnalów.
-Jam jest Tumnus Narnijczyk (próba edycji pliku).
-ćóżźń
-Można tylko niektóre polskie znaki dodać. Bez sensu.
-A ja też sobie piszę i ja też.
-A jak zrobić, żeby bylo w nastepnej linijce, a nie wszystko w tej samej?
-:)
-:)))
+Projekt końcowy - laboratorium Przetwarzania sygnalów.
+semstr IV- rok akademicki 2014/2015
+
+Zaprojektowanie stroika do gitary.
+
+autorzy:
+Piotr Brzeźnicki 187448
+Ewa Kluska 187484
+Michal Potemski 187527
+Mateusz Wisniewski 187575
