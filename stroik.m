@@ -5,9 +5,9 @@ x=1;
 while (x)
     clc;
     fprintf('Kolejnosc strun - od najgrubszej do najcienszej - E2, A2, D3, G3, H3, E4.\n');
-    fprintf ('Masz tez mozliwosc nastrojenia struny do wybranej przez siebie czestotliwosci')
+    fprintf ('Masz tez mozliwosc nastrojenia struny do wybranej przez siebie czestotliwosci.')
     fprintf('Ktora strune chcesz nastroic?\n');
-    wybor=input ('Wybierz odpowiednio: E2 = 1, A2 = 2, D3 = 3, G3 = 4, H3 = 5, E4 = 6, wybor_uzytkownika = 7\n');
+    wybor=input ('Wybierz odpowiednio: E2 = 1, A2 = 2, D3 = 3, G3 = 4, H3 = 5, E4 = 6, czestotliwosc_uzytkownika = 7\n');
     fprintf('\n');
     fprintf('Program rozpoczyna dzialanie. Nastapi teraz nagranie dzwieku.\n');
 
