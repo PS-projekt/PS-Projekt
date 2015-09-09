@@ -107,6 +107,21 @@ elseif(wybor==2)
     else
         fprintf('Struna nastrojona!');
     end
+    
+    if(wybor==7)
+    fprintf('Stroimy strune uzytkownika.\n OSTRZEZENIE: Ustawienie zbyt niskiej czestotliwosci moze spowodowac niepoprawne dzialanie stroika.\n Ustawienie zbyt duzej czestotliwosci oraz zbyt mocne naciagniecie struny moze doprowadzic do jej zniszczenia.\n Uzytkownik uzywa tej funkcji na wlasna odpowiedzialnosc.\n');
+    f=input('Podaj czestotliwosc struny.\n');
+    if(max_f*fs/n < f-blad)
+        fprintf('Nastroj do gory, roznica wynosi:');
+        disp(f-(max_f*fs/n));
+        fprintf('\n');
+    elseif(f+blad < max_f*fs/n)
+            fprintf('Nastroj do dolu, roznica wynosi:');
+            disp((max_f*fs/n)-f);
+            fprintf('\n');
+    else
+        fprintf('Struna nastrojona!');
+    end
 end
 
 end
