@@ -18,7 +18,7 @@ while (x)
     end
     fprintf('Program przeprowadzi teraz analize dzwieku.\n');
 
-    [y, f, n]=okienkowanie(y ,fs);
+    [y, f, n]=wstepna_analiza(y ,fs);
 
     dane=fourier(y);
     figure;
@@ -26,8 +26,6 @@ while (x)
     title('Transformata Fouriera (modul) dzwieku wejsciowego');
     xlabel('Czestotliwosc (Hz)');
     
-    %teraz trzeba bedzie powiazac filtry strun z FFT, znalezc maksymalne prazki
-    %dla jakich sa czestotliwosci..
     strojenie(dane, n, fs, wybor);  
         
     x=isempty (input ('Nacisnij enter, by powtorzyc dzialanie programu, badz zero, by wyjsc.\n')); 
