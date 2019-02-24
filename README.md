@@ -6,11 +6,11 @@ Zaprojektowanie stroika do gitary.
 
 autorzy:
 
-Piotr Brzeźnicki 187448 (TumnusNarnijczyk)
+187448 (TumnusNarnijczyk)
 
-Ewa Kluska 187484 (EZKLU)
+187484 (EZKLU)
 
-Michal Potemski 187527 (Nemo94)
+187527 (Nemo94)
 
-Mateusz Wisniewski 187575 (KenAdams465)
+187575 (KenAdams465)
 
